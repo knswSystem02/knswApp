@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="startTimeMes">勤務開始時間を入力してください</string>
+    <string name="endTimeMes">勤務終了時間を入力してください</string>
+    <string name="point_symbol">.</string>
+    <string name="colon_symbol">:</string>
+</resources>

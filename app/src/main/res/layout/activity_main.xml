@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.knsw.attendanceApp.MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/setiniButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="初期設定"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        android:background="@color/aquaColor"/>
+
+    <Button
+        android:id="@+id/inputButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="勤務時間入力"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        android:background="@color/aquaColor"/>
+
+    <Button
+        android:id="@+id/chooseButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="勤務日選択"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        android:background="@color/aquaColor"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="勤務表出力"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        android:background="@color/aquaColor"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/bootstrap_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="xl"
+        app:buttonMode="regular"
+        app:showOutline="false"
+        app:roundedCorners="true"
+        app:bootstrapText="{fa_heart} {fa_gbp} {fa_slack} {fa_stack_overflow} {fa_wikipedia_w} {fa_user} {fa_user_md} {fa_users} {fa_user_plus} {fa_exclamation_circle} {fa_facebook_official}"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <!--from "https://fontawesome.com/cheatsheet?from=io"-->
+    <!--D:\Download(SATA)\Android-Bootstrap-master\Android-Bootstrap-master\AndroidBootstrap\src\main\res\values\attrs_font_awesome.xml-->
+
+</LinearLayout>

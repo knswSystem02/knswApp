@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.knsw.attendanceApp.SetIniActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="ファイル名" />
+
+    <EditText android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fileNameForm"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:id="@+id/startTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="勤務開始時間" />
+
+    <EditText android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/startTimeForm"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:id="@+id/endTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="勤務終了時間" />
+
+    <EditText android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/endTimeForm"
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:id="@+id/workContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="作業内容" />
+
+    <EditText android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/workContentForm"
+        android:layout_marginLeft="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/whiteColor">
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="100dp"
+            android:background="@color/aquaColor"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/setButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginVertical="10dp"
+            android:layout_marginRight="100dp"
+            android:background="@color/aquaColor"
+            android:text="Send" />
+    </RelativeLayout>
+
+</LinearLayout>
